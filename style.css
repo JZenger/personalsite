@@ -1,0 +1,150 @@
+/* Background picture */
+.bg {
+    background: #787878 url("bg.jpg") no-repeat fixed center;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    position: fixed !important;
+}
+
+.fade-in {
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+    background: none;
+    border: none;
+    color: #463E3F;
+}
+
+.menu li a {
+	color: white;
+  font-size: 3vh;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+
+.bounce-animation {
+  	-webkit-animation: animation 1000ms linear both;
+  	animation: animation 1000ms linear both;
+}
+
+/* Generated with Bounce.js. Edit at http://goo.gl/btmzh6 */
+
+/* Generated with Bounce.js. Edit at http://goo.gl/0zjMWx */
+
+@-webkit-keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.1% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.4% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.8% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  1.6% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 35, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 35, 0, 1); } 
+}
+
+@keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.1% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.4% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  0.8% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  1.6% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  3.2% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  6.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  12.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  25.03% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  50.05% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, NaN, NaN, NaN, NaN); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 35, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 35, 0, 1); } 
+}
+
+.headshot { 
+	margin: auto; 
+	width: 200px; 
+	height: 200px;
+	background-size: cover; 
+	display: block; 
+	border-radius: 75px; 
+	-webkit-border-radius: 100%; 
+	-moz-border-radius: 100%;
+}
+
+.name {
+	font-size: 8vh;
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway", Arial;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.brief-title {
+    font-size: 4vh;
+    color: white;
+    font-family: "Raleway", Arial;
+    font-weight: bold;
+}
+
+.title {
+	text-align: center;
+}
+
+@media (max-width: 35em) {
+    .menu li a {
+        font-size: 2vh;
+    }
+    .brief-title {
+      font-size: 3vh;
+    }
+    .name {
+      font-size: 6vh;
+    }
+}
