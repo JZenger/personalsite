@@ -808,8 +808,19 @@
 				}
 
 /* Wrapper */
+	.bg {
+		z-index: -1;
+	    background-size: cover;
+	    height: 100%;
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	    position: absolute;
+	}
+
 
 	#wrapper {
+		position: relative;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
