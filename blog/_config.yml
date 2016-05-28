@@ -8,8 +8,8 @@
 # Site settings
 title: Joe Zeng
 description: 'Software Engineer and Sports Lover' # write a nice description for your blog
-baseurl: '/blog' # the subpath of your site, e.g. /blog
-url: 'http://www.joezeng.me' # the base hostname & protocol for your site http://www.example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'http://www.joezeng.me/blog' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 twitter_username: 'ZengJoe'
 
